@@ -80,9 +80,9 @@
                 <h2 ng-if="listsRetrieved.length==0 && searchTimes>0" style="color:red;">Nothing Found!</h2>\
                 ',
                 scope:{
-                    listsRetrieved: "=itemList",
+                    listsRetrieved: "<itemList",
                     onRemove: "&",
-                    searchTimes: "="
+                    searchTimes: "<"
                 }
             }
         }
